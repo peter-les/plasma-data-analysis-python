@@ -1,33 +1,22 @@
-# Plasma Data Analysis in Python
+# Attachment Movement Analysis
 
-This repository contains a Python implementation of a data analysis workflow originally developed in MATLAB during my research in plasma physics.
+Python reimplementation of a MATLAB project
+developed during my PhD research in plasma physics.
 
-The goal of this project is to translate and modernize existing scientific data processing scripts into Python while preserving their functionality and improving readability and reproducibility.
+The software analyses high-speed videos of arc
+attachments and calculates:
 
-## Features
+- attachment velocity
+- restrike period
+- travelled distance
+- uncertainty estimates
 
-- Loading and preprocessing experimental data
-- Image and signal processing
-- Fourier transform analysis
-- Numerical integration and basic signal filtering
-- Data visualization using Matplotlib
-- Structured and modular Python implementation
+Original implementation:
+MATLAB (2018–2019)
 
-## Background
-
-The original MATLAB scripts were used for processing experimental data from plasma physics experiments, including diagnostic measurements and optical/signal-based analysis.
-
-This Python version serves both as:
-- a personal migration of legacy scientific code into Python,
-- and a demonstration of applied data processing skills in a research context.
-
-## Technologies
-
-- Python 3.x
-- NumPy
-- SciPy
-- Matplotlib
-
-## Notes
-
-This project is not a commercial application but a scientific data processing tool adapted from research workflows.
+Current implementation:
+Python 3.12
+NumPy
+OpenCV
+Matplotlib
+Pandas
