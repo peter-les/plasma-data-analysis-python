@@ -54,6 +54,8 @@ Run the analysis (in bash):
 
 python main.py
 
+---
+
 ## Output
 
 The program computes:
